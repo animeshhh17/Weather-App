@@ -1,15 +1,7 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -28,21 +20,16 @@ body {
     padding: 40px 35px;
     text-align: center;
     -webkit-box-shadow: 0px 0px 105px 10px rgba(46, 8, 99, 0.9);
+    -moz-box-shadow: 0px 0px 105px 10px rgba(46, 8, 99, 0.9);
     box-shadow: 0px 0px 105px 10px rgba(46, 8, 99, 0.9);
 
 }
 
 .search {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .search input {
@@ -53,9 +40,7 @@ body {
     padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     margin-right: 16px;
     font-size: 18px;
 }
@@ -92,26 +77,16 @@ body {
 }
 
 .details {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
 }
 
 .col {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     text-align: left;
 }
 
